@@ -1,12 +1,8 @@
 import re
 
-file_name = "input.txt"
 
-def get_file(name):
-  return open(name, "r")
-
-def solution():
-  file = get_file(file_name)
+def solution(filename):
+  file = open(filename, "r")
   sum = 0
 
   for line in file:
@@ -18,4 +14,5 @@ def solution():
   return sum
 
 
-print(solution())
+filename = "input.txt"
+print(solution(filename))
