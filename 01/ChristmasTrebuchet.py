@@ -15,7 +15,7 @@ def solution():
     last = line[len(line) - 1]
     sum = sum + int(first + last)
   file.close()
-  print(sum)
+  return sum
 
 
-solution()
+print(solution())
