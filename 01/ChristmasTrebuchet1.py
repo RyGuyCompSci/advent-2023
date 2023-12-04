@@ -1,6 +1,5 @@
 import re
 
-
 def solution(filename):
   file = open(filename, "r")
   sum = 0
