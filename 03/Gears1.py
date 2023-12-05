@@ -73,7 +73,7 @@ def solution(filename):
                     sub_index = sub_index + 1
                 # add to other entries
                 for i in range(0, len(number)):
-                    numbers[(x + i, y)] = (int(number), i) # TODO: use index to remove adjacent values later
+                    numbers[(x + i, y)] = (int(number), i)
                 x = x + len(number) # skip to end of number
             else:
                 x = x + 1 # increment x
